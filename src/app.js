@@ -85,7 +85,9 @@ app.get('*', (req,res) => {
 //Acessar no navegador -> localhost:3000
 //Comando para rodar hbs -> nodemon src/app.js -e js,hbs
 
-app.listen(3000, () => {
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
     console.log("Server is up on port 3000");
 })
 
