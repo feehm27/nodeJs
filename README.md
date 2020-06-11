@@ -1,7 +1,7 @@
-#Projeto voltado para o curso de NodeJs.
+# Projeto voltado para o curso de NodeJs.
 
-#Para executar configurar as dependências: 
+# Para executar configurar as dependências: 
 `npm i`
 
-#Depois
+# Para inicializar o projeto:
 `npm start`
